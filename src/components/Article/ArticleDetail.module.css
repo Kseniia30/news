@@ -1,0 +1,120 @@
+.details__box {
+
+}
+.details__header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-image: url("https://static.euronews.com/articles/programs/programs-bg/1180x300_bg-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.details {
+    position: relative;
+    top: -30px;
+    width: 220px;
+    padding: 20px 30px 20px;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+    margin-right: auto;
+}
+.details__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #363636;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.details__img {
+    width: 100%;
+    border-radius: 5px;
+}
+.details__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: justify;
+    text-indent: 10px;
+    margin-bottom: 15px;
+}
+.details_seeMore {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    padding: 13px 20px;
+    align-items: center;
+}
+.details__backBtn {
+    margin-top: 35px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    margin-bottom: 45px;
+    padding: 13px 20px;
+}
+.details__btnLink {
+    display: flex;
+    align-items: center;
+}
+.details__btnIcon {
+    margin-right: 6px;
+}
+
+@media screen and (min-width:768px) {
+    .details {
+        width: 688px;
+        padding: 25px 30px 20px;
+        top: -80px;
+    }
+    .details__header {
+        height: 105px;
+    }
+    .details__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .details__img {
+        width: 500px;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    .details__text {
+        text-indent: 15px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1480px) {
+    .details {
+        width: 1140px;
+        padding: 35px 75px 50px;
+        top: -90px;
+    }
+    .details__header {
+        height: 245px;
+    }
+    .details__title {
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+    .details__img {
+        width: 900px;
+        height: max-content;
+        margin-bottom: 35px;
+    }
+    .details__text {
+        text-indent: 20px;
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,113 @@
+.homeList {
+    text-align: center;
+}
+.homeList__item {
+    width: 100%;
+}
+.homeList__img {
+    width: 100%;
+    border-radius: 5px;
+}
+.homeList__textBox {
+    padding: 15px;
+}
+.homeList__dateIcon {
+    margin-right: 8px;
+}
+.homeList__date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #363636;
+    opacity: 0.6;
+}
+.homeList__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.homeList__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #363636;
+    text-align: justify;
+    text-indent: 7px;
+    margin-bottom: 10px;
+}
+.homeList__btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.homeList__btnIcon {
+    margin-left: 6px;
+}
+.homeList__btn:hover, .homeList__btn:focus {}
+
+@media screen and (min-width:768px) {
+    .homeList {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -25px;
+        margin-right: -25px;
+        text-align: left;
+    }
+    .homeList__item {
+        width: calc(100% / 2 - 25px);
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    .homeList__img {
+        height: 180px;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .homeList__textBox {
+        padding: 20px;
+    }
+    .homeList__dateIcon {}
+    .homeList__date {
+        font-size: 14px;
+        justify-content: start;
+    }
+    .homeList__title {
+        font-size: 22px;
+    }
+    .homeList__text {}
+    .homeList__btn {}
+}
+
+@media screen and (min-width:1480px) {
+    .homeList {
+        margin-top: -45px;
+        margin-right: -45px;
+    }
+    .homeList__item {
+        width: calc(100% / 3 - 45px);
+        margin-top: 45px;
+        margin-right: 45px;
+    }
+    .homeList__img {
+        height: 200px;
+    }
+    .homeList__textBox {
+        padding: 25px;
+    }
+    .homeList__dateIcon {}
+    .homeList__date {}
+    .homeList__title {
+        font-size: 24px;
+    }
+    .homeList__text {}
+    .homeList__btn {}
+}
